@@ -1,0 +1,57 @@
+	AREA RESET, DATA, READONLY
+	EXPORT __Vectors
+	
+__Vectors
+	DCD 0x10001000 ; stack pointer value when stack is empty
+	DCD Reset_Handler ; reset vector
+	
+	ALIGN
+	AREA mycode, CODE, READONLY
+	ENTRY
+	EXPORT Reset_Handler
+Reset_Handler
+	LDR R0,=RES;
+	LDR R1,=NUM1;
+	LDR R2,=NUM2;
+	LDR R3, [R1];
+	LDR R4, [R2];
+	MOV R5,#08; COUNTER;
+	
+LOOP	
+	MOV R1,R3;
+	MOV R2,R4;
+	AND R1,#MASK;
+	AND R2,#MASK;
+	CMP R1,R2;
+	BLO CARRY
+	SUB R7,R1,R2;
+
+	B NEXT;
+CARRY
+	ADD R1,#0xA
+	ADD R9,#1
+	SUB R7,R1,R2;
+	
+NEXT
+	LSR R3, #4;
+	LSR R4, #4;
+	SUB R3,R9
+	CMP R9,#0
+	SUBHI R9,#1
+	ORR R8, R7;RESULT BEING STORED IN R8 FROM R7;
+	ROR R8,#4;
+	SUB R5,#1;
+	TEQ R5,#0; XOR OPERATION TO CHECK IF R5 0;
+	BNE LOOP;
+NEXT1
+	STR R8, [R0],#4;
+
+STOP 
+	B STOP;
+	
+NUM1 DCD 0x99999998;
+NUM2 DCD 0x00000009;
+MASK EQU 0x0F;	
+	AREA data1, DATA;
+RES DCD 0,0
+	END

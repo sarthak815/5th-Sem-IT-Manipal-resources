@@ -1,0 +1,35 @@
+
+	AREA RESET,DATA,READONLY
+	EXPORT __Vectors
+
+__Vectors
+	
+	DCD 0x10001000
+	DCD Reset_Handler
+	ALIGN
+	AREA mycode,CODE,READONLY
+	ENTRY
+	EXPORT Reset_Handler	
+
+Reset_Handler
+		
+	LDR R0, =-7
+	LDR R1,=-10
+	LDR R2, =0X5946F937
+	LDR R13,=0X10000014
+	STMDB R13!,{R0-R2}
+	PUSH {R1}
+	PUSH {R0}
+	PUSH {R2}
+	STM R13, {R0-R2}
+	POP {R5}
+	POP {R7}
+	POP {R6}
+	
+	
+STOP 	
+	B STOP
+
+	AREA mydata,DATA,READWRITE
+
+	END

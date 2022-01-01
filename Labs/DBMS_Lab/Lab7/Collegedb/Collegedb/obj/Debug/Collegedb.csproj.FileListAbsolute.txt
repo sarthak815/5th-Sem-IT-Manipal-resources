@@ -1,0 +1,9 @@
+C:\Users\Sanjay\source\repos\Collegedb\Collegedb\obj\Debug\Collegedb.Form1.resources
+C:\Users\Sanjay\source\repos\Collegedb\Collegedb\obj\Debug\Collegedb.Properties.Resources.resources
+C:\Users\Sanjay\source\repos\Collegedb\Collegedb\obj\Debug\Collegedb.csproj.GenerateResource.cache
+C:\Users\Sanjay\source\repos\Collegedb\Collegedb\obj\Debug\Collegedb.csproj.CoreCompileInputs.cache
+C:\Users\Sanjay\source\repos\Collegedb\Collegedb\bin\Debug\Collegedb.exe.config
+C:\Users\Sanjay\source\repos\Collegedb\Collegedb\bin\Debug\Collegedb.exe
+C:\Users\Sanjay\source\repos\Collegedb\Collegedb\bin\Debug\Collegedb.pdb
+C:\Users\Sanjay\source\repos\Collegedb\Collegedb\obj\Debug\Collegedb.exe
+C:\Users\Sanjay\source\repos\Collegedb\Collegedb\obj\Debug\Collegedb.pdb

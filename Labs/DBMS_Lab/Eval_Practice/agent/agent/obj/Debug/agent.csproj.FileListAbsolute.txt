@@ -1,0 +1,9 @@
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Eval_Practice\agent\agent\obj\Debug\agent.Form1.resources
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Eval_Practice\agent\agent\obj\Debug\agent.Properties.Resources.resources
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Eval_Practice\agent\agent\obj\Debug\agent.csproj.GenerateResource.cache
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Eval_Practice\agent\agent\obj\Debug\agent.csproj.CoreCompileInputs.cache
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Eval_Practice\agent\agent\bin\Debug\agent.exe.config
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Eval_Practice\agent\agent\bin\Debug\agent.exe
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Eval_Practice\agent\agent\bin\Debug\agent.pdb
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Eval_Practice\agent\agent\obj\Debug\agent.exe
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Eval_Practice\agent\agent\obj\Debug\agent.pdb

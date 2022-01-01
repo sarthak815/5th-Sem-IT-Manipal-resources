@@ -1,0 +1,19 @@
+*** Creating Trace Output File 'ES_Lab.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"q1.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "q1.o" 
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x10000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\ES_Lab.map" -o ES_Lab.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'ES_Lab.axf'
+### ADS-LD Command File: 'ES_Lab.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'ES_Lab.lnp', Handle=0x00000D48
+### Writing '.lnp' file
+### ADS-LD Command file 'ES_Lab.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

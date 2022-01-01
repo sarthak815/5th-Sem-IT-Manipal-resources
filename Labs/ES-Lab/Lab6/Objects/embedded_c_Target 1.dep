@@ -1,0 +1,33 @@
+Dependencies for Project 'embedded_c', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\led_counter.c)(0x61AC9BFB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/Users/Sanjay/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Sanjay/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.0/Device/Include-IC:/Users/Sanjay/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.0/RTE_Driver-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_-o ./objects/led_counter.o -MD)
+I (C:\Users\Sanjay\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\Device\Include\LPC17xx.h)(0x5E1D856C)
+I (C:\Users\Sanjay\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D40C0A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60352AF8)
+I (C:\Users\Sanjay\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D40C0A)
+I (C:\Users\Sanjay\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D40C0A)
+I (C:\Users\Sanjay\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D40C0A)
+I (C:\Users\Sanjay\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D40C0A)
+I (C:\Users\Sanjay\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\Device\Include\system_LPC17xx.h)(0x5849004A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60352AFC)
+F (C:\Users\Sanjay\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\RTE_Driver\GPIO_LPC17xx.c)(0x5D5BA482)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/Users/Sanjay/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Sanjay/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.0/Device/Include-IC:/Users/Sanjay/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.0/RTE_Driver-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_-o ./objects/gpio_lpc17xx.o -MD)
+I (C:\Users\Sanjay\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\RTE_Driver\GPIO_LPC17xx.h)(0x5D5BA482)
+I (C:\Users\Sanjay\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\Device\Include\LPC17xx.h)(0x5E1D856C)
+I (C:\Users\Sanjay\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D40C0A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60352AF8)
+I (C:\Users\Sanjay\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D40C0A)
+I (C:\Users\Sanjay\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D40C0A)
+I (C:\Users\Sanjay\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D40C0A)
+I (C:\Users\Sanjay\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D40C0A)
+I (C:\Users\Sanjay\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\Device\Include\system_LPC17xx.h)(0x5849004A)
+F (RTE\Device\LPC1768\RTE_Device.h)(0x5D5BA482)()
+F (RTE\Device\LPC1768\startup_LPC17xx.s)(0x5849004A)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/Users/Sanjay/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Sanjay/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.0/Device/Include-IC:/Users/Sanjay/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.0/RTE_Driver-Wa,armasm,--pd,"__UVISION_VERSION SETA 535" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"LPC175x_6x SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_lpc17xx_1.o)
+F (RTE\Device\LPC1768\system_LPC17xx.c)(0x61AC9C97)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/Users/Sanjay/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Sanjay/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.0/Device/Include-IC:/Users/Sanjay/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.0/RTE_Driver-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_-o ./objects/system_lpc17xx_1.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60352AF8)
+I (C:\Users\Sanjay\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\Device\Include\LPC17xx.h)(0x5E1D856C)
+I (C:\Users\Sanjay\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D40C0A)
+I (C:\Users\Sanjay\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D40C0A)
+I (C:\Users\Sanjay\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D40C0A)
+I (C:\Users\Sanjay\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D40C0A)
+I (C:\Users\Sanjay\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D40C0A)
+I (C:\Users\Sanjay\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\Device\Include\system_LPC17xx.h)(0x5849004A)

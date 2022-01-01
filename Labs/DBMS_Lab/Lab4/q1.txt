@@ -1,0 +1,126 @@
+CREATE TABLE STUDENT(regno varchar(20) primary key, 
+	name varchar(50), 
+	major varchar(50), 
+	bdate date);
+CREATE TABLE COURSE(courseno int primary key, 
+	cname varchar(30), 
+	dept varchar(30));
+CREATE TABLE ENROLL(regno varchar(20), 
+	courseno int,
+	foreign key(courseno) references COURSE(courseno),
+	foreign key(regno) references STUDENT(regno)
+	);
+CREATE TABLE TEXT(book_isbn int primary key, 
+	booktitle varchar(50), 
+	publisher varchar(50), 
+	author varchar(50));
+CREATE TABLE BOOK_ADOPTION(courseno int, 
+	sem int, 
+	book_isbn int,
+	foreign key(book_isbn) references TEXT(book_isbn),
+	foreign key(courseno) references COURSE(courseno)
+	);
+--STUDENT
+insert into student values('AA','Abhishek','CSE', '11-JUL-2000');
+insert into student values('BB','Ankit','EEE', '16-JUL-2000');
+insert into student values('CC','Teheron','HUM', '23-APR-2000');
+insert into student values('DD','Dhruv','HUM', '05-APR-2000');
+
+
+--COURSE
+insert into course values(1111, 'CCE', 'IT');
+insert into course values(2222, 'ECE', 'ELEC');
+insert into course values(3333, 'EG', 'ARCH');
+
+--ENROLL
+insert into enroll values('AA', 1111);
+insert into enroll values('BB', 2222);
+insert into enroll values('CC', 3333);
+insert into enroll values('AA', 3333);
+insert into enroll values('CC', 1111);
+insert into enroll values('AA', 2222);
+
+
+--BOOK_ADOPTION
+insert into book_adoption values(1111, 1, 10);
+insert into book_adoption values(2222, 2, 20);
+insert into book_adoption values(3333, 3, 30);
+insert into book_adoption values(3333, 4, 40);
+insert into book_adoption values(3333, 5, 50);
+insert into book_adoption values(1111,3,60);
+insert into book_adoption values(2222,4,70);
+insert into book_adoption values(2222,4,80);
+insert into book_adoption values(2222,4,90);
+
+
+--TEXT
+insert into text values(10,'c++','Newline','Robert W');
+insert into text values(20,'Electronics','Winter','Hashville');
+insert into text values(30,'Design','Shanton','Gracy L');
+insert into text values(40,'pattern','Notting hill','Cheryl M');
+insert into text values(50,'designing','Clinton','Clive C');
+insert into text values(60,'Data', 'Newline','Lindsay M');
+insert into text values(80,'Internet','Newline','Christ');
+insert into text values(90,'Knowledge ','Newline','Joe G');
+insert into text values(70,'Data struc','Shanton','Bob M');
+
+--i)
+SELECT COUNT(COURSENO),CNAME 
+FROM COURSE NATURAL JOIN BOOK_ADOPTION 
+GROUP BY CNAME 
+HAVING COUNT(COURSENO)>1; 
+--ii)
+SELECT DISTINCT DEPT 
+FROM COURSE NATURAL LEFT JOIN 
+(BOOK_ADOPTION NATURAL LEFT JOIN TEXT) 
+WHERE PUBLISHER = 'Winter';
+--iii)
+SELECT NAME FROM STUDENT 
+NATURAL JOIN
+(SELECT * FROM ENROLL NATURAL JOIN COURSE) 
+GROUP BY NAME 
+HAVING COUNT(DISTINCT DEPT)>1;
+--iv)
+SELECT NAME FROM STUDENT
+WHERE REGNO NOT IN 
+(SELECT REGNO FROM ENROLL);
+--v)
+SELECT BOOKTITLE FROM BOOK_ADOPTION NATURAL JOIN TEXT 
+WHERE COURSENO 
+IN (SELECT COURSENO FROM ENROLL);
+--vi)
+
+SELECT DISTINCT C.COURSENO, T.PUBLISHER
+FROM BOOK_ADOPTION C, TEXT T
+WHERE C.BOOK_ISBN=T.BOOK_ISBN
+AND T.PUBLISHER IN 
+(SELECT T1.PUBLISHER
+FROM TEXT T1
+GROUP BY T1.PUBLISHER
+HAVING COUNT(*)>=2);
+--vii)
+SELECT NAME,COUNT(NAME) FROM STUDENT NATURAL RIGHT JOIN 
+(SELECT * FROM ENROLL NATURAL RIGHT JOIN BOOK_ADOPTION)
+GROUP BY NAME;
+--viii)
+
+SELECT DEPT, COUNT(DISTINCT PUBLISHER) FROM 
+COURSE NATURAL JOIN 
+(SELECT * FROM BOOK_ADOPTION NATURAL LEFT JOIN TEXT) 
+GROUP BY DEPT
+HAVING COUNT(DISTINCT PUBLISHER)=1;
+--ix)
+SELECT PUBLISHER, COUNT(DISTINCT BOOK_ISBN)
+FROM TEXT GROUP BY PUBLISHER
+--x)
+
+SELECT DISTINCT REGNO FROM STUDENT NATURAL JOIN ENROLL E
+WHERE NOT EXISTS(
+(SELECT COURSENO FROM COURSE NATURAL JOIN ENROLL
+GROUPBY COURSENO
+)
+MINUS(
+SELECT COURSENO FROM COURSE NATURAL JOIN BOOK_ADOPTION
+GROUP BY COURSENO));
+
+

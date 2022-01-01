@@ -1,0 +1,18 @@
+D:\190911216\Lab2\Notepad\Notepad\bin\Release\Notepad.exe.config
+D:\190911216\Lab2\Notepad\Notepad\bin\Release\Notepad.exe
+D:\190911216\Lab2\Notepad\Notepad\bin\Release\Notepad.pdb
+D:\190911216\Lab2\Notepad\Notepad\obj\Release\Notepad.Form1.resources
+D:\190911216\Lab2\Notepad\Notepad\obj\Release\Notepad.Properties.Resources.resources
+D:\190911216\Lab2\Notepad\Notepad\obj\Release\Notepad.csproj.GenerateResource.Cache
+D:\190911216\Lab2\Notepad\Notepad\obj\Release\Notepad.exe
+D:\190911216\Lab2\Notepad\Notepad\obj\Release\Notepad.pdb
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Lab2\Notepad\Notepad\bin\Release\Notepad.exe.config
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Lab2\Notepad\Notepad\bin\Release\Notepad.exe
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Lab2\Notepad\Notepad\bin\Release\Notepad.pdb
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Lab2\Notepad\Notepad\obj\Release\Notepad.csproj.AssemblyReference.cache
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Lab2\Notepad\Notepad\obj\Release\Notepad.Form1.resources
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Lab2\Notepad\Notepad\obj\Release\Notepad.Properties.Resources.resources
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Lab2\Notepad\Notepad\obj\Release\Notepad.csproj.GenerateResource.cache
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Lab2\Notepad\Notepad\obj\Release\Notepad.csproj.CoreCompileInputs.cache
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Lab2\Notepad\Notepad\obj\Release\Notepad.exe
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Lab2\Notepad\Notepad\obj\Release\Notepad.pdb

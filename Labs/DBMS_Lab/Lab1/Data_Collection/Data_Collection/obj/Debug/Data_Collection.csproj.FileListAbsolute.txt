@@ -1,0 +1,19 @@
+c:\users\mahe\documents\visual studio 2012\Projects\Data_Collection\Data_Collection\bin\Debug\Data_Collection.exe.config
+c:\users\mahe\documents\visual studio 2012\Projects\Data_Collection\Data_Collection\bin\Debug\Data_Collection.exe
+c:\users\mahe\documents\visual studio 2012\Projects\Data_Collection\Data_Collection\bin\Debug\Data_Collection.pdb
+c:\users\mahe\documents\visual studio 2012\Projects\Data_Collection\Data_Collection\obj\Debug\Data_Collection.Form1.resources
+c:\users\mahe\documents\visual studio 2012\Projects\Data_Collection\Data_Collection\obj\Debug\Data_Collection.Properties.Resources.resources
+c:\users\mahe\documents\visual studio 2012\Projects\Data_Collection\Data_Collection\obj\Debug\Data_Collection.csproj.GenerateResource.Cache
+c:\users\mahe\documents\visual studio 2012\Projects\Data_Collection\Data_Collection\obj\Debug\Data_Collection.exe
+c:\users\mahe\documents\visual studio 2012\Projects\Data_Collection\Data_Collection\obj\Debug\Data_Collection.pdb
+c:\users\mahe\documents\visual studio 2012\Projects\Data_Collection\Data_Collection\obj\Debug\Data_Collection.csprojResolveAssemblyReference.cache
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Lab1\Data_Collection\Data_Collection\obj\Debug\Data_Collection.csproj.AssemblyReference.cache
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Lab1\Data_Collection\Data_Collection\obj\Debug\Data_Collection.Form1.resources
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Lab1\Data_Collection\Data_Collection\obj\Debug\Data_Collection.Properties.Resources.resources
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Lab1\Data_Collection\Data_Collection\obj\Debug\Data_Collection.csproj.GenerateResource.cache
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Lab1\Data_Collection\Data_Collection\obj\Debug\Data_Collection.csproj.CoreCompileInputs.cache
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Lab1\Data_Collection\Data_Collection\obj\Debug\Data_Collection.exe
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Lab1\Data_Collection\Data_Collection\obj\Debug\Data_Collection.pdb
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Lab1\Data_Collection\Data_Collection\bin\Debug\Data_Collection.exe.config
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Lab1\Data_Collection\Data_Collection\bin\Debug\Data_Collection.exe
+C:\Users\Sanjay\OneDrive - Manipal Academy of Higher Education\Documents\GitHub\DBMS_Lab\Lab1\Data_Collection\Data_Collection\bin\Debug\Data_Collection.pdb
